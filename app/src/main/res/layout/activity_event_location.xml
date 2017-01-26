@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/map"
+        android:layout_weight="9"
+        android:scaleType="fitXY"
+        android:src="@drawable/pic12"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="5dp"
+        android:id="@+id/loctext"
+        android:lineSpacingExtra="5dp"
+        android:lineSpacingMultiplier="1.2"
+        android:letterSpacing="0.15"
+        android:text="The workshop will be organized at the Vigyan Bhawan at New Delhi, which is a premier convention centre in India. It has been the venue for several Heads of State summits such as CHOGM, NAM, SAARC and G7 summits."
+        android:layout_weight="4"/>
+
+
+
+    </LinearLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/fab"
+        android:src="@drawable/direction"
+        />
+</android.support.design.widget.CoordinatorLayout>

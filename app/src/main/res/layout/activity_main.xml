@@ -1,0 +1,112 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tbdetails"
+        android:minHeight="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Program"
+        android:padding="@dimen/buttonpadding"
+        android:gravity="center"
+        android:textSize="@dimen/textsize"
+        android:textColor="@color/textcolor"
+        android:background="@color/bgcolor"
+        android:id="@+id/btn1"
+        />
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Session"
+        android:padding="@dimen/buttonpadding"
+        android:gravity="center"
+        android:textSize="@dimen/textsize"
+        android:textColor="@color/textcolor"
+        android:background="@color/bgcolor"
+        android:id="@+id/btn2"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Speakers"
+        android:padding="@dimen/buttonpadding"
+        android:gravity="center"
+        android:textSize="@dimen/textsize"
+        android:textColor="@color/textcolor"
+        android:background="@color/bgcolor"
+        android:id="@+id/btn3"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Organizing Committee"
+        android:padding="@dimen/buttonpadding"
+        android:gravity="center"
+        android:textSize="@dimen/textsize"
+        android:textColor="@color/textcolor"
+        android:background="@color/bgcolor"
+        android:id="@+id/btn4"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Event Location"
+        android:padding="@dimen/buttonpadding"
+        android:gravity="center"
+        android:textSize="@dimen/textsize"
+        android:textColor="@color/textcolor"
+        android:background="@color/bgcolor"
+        android:id="@+id/btn5"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Event Photos"
+        android:padding="@dimen/buttonpadding"
+        android:gravity="center"
+        android:textSize="@dimen/textsize"
+        android:textColor="@color/textcolor"
+        android:background="@color/bgcolor"
+        android:id="@+id/btn6"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Contact"
+        android:padding="@dimen/buttonpadding"
+        android:gravity="center"
+        android:textSize="@dimen/textsize"
+        android:textColor="@color/textcolor"
+        android:background="@color/bgcolor"
+        android:id="@+id/btn7"
+        />
+</LinearLayout>

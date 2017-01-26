@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dibya.myapplication">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/pic1"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ShowDetailsActivity" />
+        <activity android:name=".TimeLineActivity" />
+        <activity android:name=".splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".GuestActivity" />
+        <activity android:name=".Contact" />
+        <activity android:name=".Speakers" />
+        <activity android:name=".EventLocation" />
+        <activity android:name=".Programs" />
+        <activity android:name=".EventPhotos" />
+        <activity
+            android:name=".ShowImage"
+            android:screenOrientation="landscape" />
+        <activity android:name=".Committee"></activity>
+    </application>
+
+</manifest>
