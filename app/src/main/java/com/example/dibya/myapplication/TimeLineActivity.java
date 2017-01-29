@@ -2,6 +2,11 @@ package com.example.dibya.myapplication;
 
 import android.graphics.Color;
 import android.os.Bundle;
+import android.support.design.widget.TabLayout;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentPagerAdapter;
+import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -16,7 +21,8 @@ public class TimeLineActivity extends AppCompatActivity {
     private RecyclerView mRecyclerView;
 
     private TimeLineAdapter mTimeLineAdapter;
-
+    ViewPager viewPager;
+    TabLayout tabLayout;
     private List<TimeLineModel> mDataList = new ArrayList<>();
 
     private Orientation mOrientation;
@@ -29,51 +35,62 @@ public class TimeLineActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         toolbar.setTitleTextColor(Color.WHITE);
 
-        mOrientation =Orientation.vertical;
+        mOrientation = Orientation.vertical;
         setTitle("Session");
 
-        mRecyclerView = (RecyclerView) findViewById(R.id.recyclerView);
-        mRecyclerView.setLayoutManager(getLinearLayoutManager());
-        mRecyclerView.setHasFixedSize(true);
+        //   mRecyclerView = (RecyclerView) findViewById(R.id.recyclerView);
+        // mRecyclerView.setLayoutManager(getLinearLayoutManager());
+        //mRecyclerView.setHasFixedSize(true);
 
 
-        initView();
+//        initView();
+        viewPager = (ViewPager) findViewById(R.id.viewpager);
+        setupViewPager(viewPager);
+
+        tabLayout = (TabLayout) findViewById(R.id.tabs);
+        tabLayout.setupWithViewPager(viewPager);
     }
 
-    private LinearLayoutManager getLinearLayoutManager() {
 
-        if (mOrientation == Orientation.horizontal) {
+    private void setupViewPager(ViewPager viewPager) {
+        ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
+        adapter.addFragment(new OneFragment(), "13th FEB");
+        adapter.addFragment(new TwoFragment(), "14th FEB");
 
-            LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
-            return linearLayoutManager;
-        } else {
-
-            LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
-            return linearLayoutManager;
-        }
-
+        viewPager.setAdapter(adapter);
     }
 
-    private void initView() {
 
-        String time[]=getResources().getStringArray(R.array.eventtime);
-        String ename[]=getResources().getStringArray(R.array.eventname);
-        String sname[]=getResources().getStringArray(R.array.eventspeaker);
 
-        for(int i = 0;i <9;i++) {
-            TimeLineModel model = new TimeLineModel();
-            model.setEventname(ename[i]);
-            model.setTime(time[i]);
-            if(sname[i].equals("zz"))
-                 model.setSpeaker(" ");
-            else
-                model.setSpeaker(sname[i]);
-            mDataList.add(model);
-        }
+class ViewPagerAdapter extends FragmentPagerAdapter {
+    private final List<Fragment> mFragmentList = new ArrayList<>();
+    private final List<String> mFragmentTitleList = new ArrayList<>();
 
-        mTimeLineAdapter = new TimeLineAdapter(mDataList, mOrientation);
-        mRecyclerView.setAdapter(mTimeLineAdapter);
+    public ViewPagerAdapter(FragmentManager manager) {
+        super(manager);
     }
+
+    @Override
+    public Fragment getItem(int position) {
+        return mFragmentList.get(position);
+    }
+
+    @Override
+    public int getCount() {
+        return mFragmentList.size();
+    }
+
+    public void addFragment(Fragment fragment, String title) {
+        mFragmentList.add(fragment);
+        mFragmentTitleList.add(title);
+    }
+
+    @Override
+    public CharSequence getPageTitle(int position) {
+        return mFragmentTitleList.get(position);
+    }
+}
+
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
