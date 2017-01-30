@@ -78,6 +78,10 @@ int PERMISSION_REQUEST_CODE=1;
         m2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_SEND);
+                intent.setType("text/html");
+                intent.putExtra(Intent.EXTRA_EMAIL, "ajay.cimfr@gmail.com");
+                startActivity(intent);
 
             }
         });
