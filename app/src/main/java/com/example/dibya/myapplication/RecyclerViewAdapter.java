@@ -120,7 +120,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
         {
             if(view.getId()==R.id.guestimage)
             {
-                openWindow(getAdapterPosition());
+                //openWindow(getAdapterPosition());
             }
             else
             start(getAdapterPosition());
