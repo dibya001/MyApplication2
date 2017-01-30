@@ -18,10 +18,14 @@ public class ShowDetailsActivity extends AppCompatActivity {
         setContentView(R.layout.activity_show_details);
         Toolbar tb= (Toolbar) findViewById(R.id.tbdetails);
         setSupportActionBar(tb);
-        tb.setTitleTextColor(Color.WHITE);
-        TextView txt = (TextView) findViewById(R.id.guestdetails);
+
         Intent i = getIntent();
         int pos = i.getIntExtra("id", -1);
+        String title=getResources().getStringArray(R.array.guest_name)[pos];
+        setTitle(title);
+        tb.setTitleTextColor(Color.WHITE);
+        TextView txt = (TextView) findViewById(R.id.guestdetails);
+
         if (pos != -1) {
             String p = getResources().getStringArray(R.array.guest_details)[pos];
             txt.setText(p);
