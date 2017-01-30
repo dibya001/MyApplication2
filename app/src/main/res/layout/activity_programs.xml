@@ -21,7 +21,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/programtext"
-            android:textSize="18sp"
+            android:textSize="22sp"
             android:textColor="#000"
             android:lineSpacingExtra="5dp"
             android:lineSpacingMultiplier="1.2"
