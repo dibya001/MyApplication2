@@ -32,6 +32,7 @@
         android:layout_marginBottom="10dp"
         android:textStyle="bold"
         android:textSize="24sp"
+        android:textColor="#000"
         android:layout_margin="16dp"
         android:gravity="center"
         />
@@ -52,6 +53,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="18sp"
+
                 android:layout_marginBottom="10dp"
                 android:text="Dr. ePrade,\n Nodal Scientist\nProject CoalGasUrja\n"
                 />
@@ -63,6 +65,7 @@
         android:text="Organizing Secretary"
         android:layout_marginBottom="10dp"
         android:textStyle="bold"
+        android:textColor="#000"
         android:textSize="24sp"
         android:gravity="center"
         android:layout_margin="16dp"
@@ -96,6 +99,7 @@
         android:text="Joint Organizing Secretary"
         android:layout_marginBottom="10dp"
         android:textStyle="bold"
+        android:textColor="#000"
         android:gravity="center"
         android:layout_margin="16dp"
         android:textSize="24sp"
@@ -127,6 +131,7 @@
         android:layout_height="wrap_content"
         android:text="Advisers"
         android:textStyle="bold"
+        android:textColor="#000"
         android:gravity="center"
         android:textSize="24sp"
         android:layout_margin="16dp"
@@ -238,6 +243,7 @@
         android:text="Members"
         android:gravity="center"
         android:textStyle="bold"
+        android:textColor="#000"
         android:textSize="24sp"
         android:layout_margin="16dp"
         />

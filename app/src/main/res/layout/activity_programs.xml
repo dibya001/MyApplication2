@@ -22,6 +22,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/programtext"
             android:textSize="18sp"
+            android:textColor="#000"
             android:lineSpacingExtra="5dp"
             android:lineSpacingMultiplier="1.2"
             />
