@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout
-    android:layout_height="match_parent"
+<android.support.design.widget.CoordinatorLayout android:layout_height="match_parent"
     android:layout_width="match_parent"
-    android:orientation="vertical"
-    xmlns:android="http://schemas.android.com/apk/res/android">
-    <android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        >
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
         android:id="@+id/toolbar"
-        android:minHeight="?attr/actionBarSize"
+        android:layout_height="?attr/actionBarSize"
         android:background="@color/colorPrimary"
 
+
         />
-    <ScrollView
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 <LinearLayout android:layout_height="wrap_content"
@@ -24,6 +29,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/map"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
   android:src="@drawable/pic12"
         />
 
@@ -31,20 +38,21 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="5dp"
+
         android:textSize="18sp"
+        android:layout_margin="5dp"
         android:textColor="#000"
         android:id="@+id/loctext"
         android:lineSpacingExtra="5dp"
         android:lineSpacingMultiplier="1.2"
-        android:letterSpacing="0.15"
+
         android:text="The workshop will be organized at the Vigyan Bhawan at New Delhi, which is a premier convention centre in India. It has been the venue for several Heads of State summits such as CHOGM, NAM, SAARC and G7 summits."
        />
 
 
 
     </LinearLayout>
-    </ScrollView>
+    </android.support.v4.widget.NestedScrollView>
     <android.support.design.widget.FloatingActionButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
