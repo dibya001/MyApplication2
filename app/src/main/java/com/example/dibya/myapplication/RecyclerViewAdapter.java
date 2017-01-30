@@ -103,14 +103,16 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
         public ImageView gPhoto;
 
         public CardView card;
+        public LinearLayout ll;
 
         public RecyclerViewHolders(View itemView) {
             super(itemView);
            gName = (TextView) itemView.findViewById(R.id.guestname);
             gPhoto = (ImageView) itemView.findViewById(R.id.guestimage);
             gPhoto.setOnClickListener(this);
-            card = (CardView) itemView.findViewById(R.id.card_view);
-            card.setOnClickListener(this);
+        //    card = (CardView) itemView.findViewById(R.id.card_view);
+            ll= (LinearLayout) itemView.findViewById(R.id.ll);
+           ll.setOnClickListener(this);
 
         }
 
