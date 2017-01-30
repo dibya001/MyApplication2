@@ -66,9 +66,9 @@ int PERMISSION_REQUEST_CODE=1;
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(Intent.ACTION_SEND);
+                Intent intent = new Intent(Intent.ACTION_SENDTO);
                 intent.setType("text/html");
-                intent.putExtra(Intent.EXTRA_EMAIL, "pradeep.cimfr@yahoo.com");
+                intent.setData(Uri.parse("mailto:pradeep.cimfr@yahoo.com"));
                 startActivity(intent);
 
             }
@@ -78,9 +78,10 @@ int PERMISSION_REQUEST_CODE=1;
         m2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Intent.ACTION_SEND);
+                Intent intent = new Intent(Intent.ACTION_SENDTO);
                 intent.setType("text/html");
-                intent.putExtra(Intent.EXTRA_EMAIL, "ajay.cimfr@gmail.com");
+                intent.setData(Uri.parse("mailto:ajay.cimfr@gmail.com"));
+              //  intent.putExtra(Intent.EXTRA_EMAIL, "ajay.cimfr@gmail.com");
                 startActivity(intent);
 
             }
