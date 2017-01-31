@@ -63,12 +63,16 @@ public class GuestActivity extends AppCompatActivity {
 
     private void setData() {
             String[] mystring=getResources().getStringArray(R.array.guest_name);
-                    for(int i=0;i<10;i++)
+                    for(int i=0;i<12;i++)
                     {
                         Guest g=new Guest();
                         //int z=i+2;
                        // Uri z=Uri.parse("R.drawable."+"pic"+(i+2));
-                    int img=getResources().getIdentifier("pic"+(i+2),"drawable",getPackageName());
+                        int img=0;
+                        if (i<10)
+                             img=getResources().getIdentifier("pic"+(i+2),"drawable",getPackageName());
+                        else if (i>=10)
+                            img=getResources().getIdentifier("pic"+(i+9),"drawable",getPackageName());
                         g.setImage(img);
                         g.setName(mystring[i]);
                         guest.add(g);

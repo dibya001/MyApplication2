@@ -26,6 +26,8 @@
         <item>Dr. Dipankar Chatterjee</item>
         <item>Dr. Ajay K Singh </item>
         <item>Dr. Debadutta Mohanty </item>
+        <item>Shri P K Jain</item>
+        <item>Shri Sunil K Singh </item>
     </string-array>
     <string-array name="guest_details">
         <item>Dr Kirit S Parikh has a Doctor of Science in Civil Engineering and a Masters Degree in Economics from MIT, USA.\n
@@ -94,6 +96,12 @@ Ajay Kumar Singh is a senior scientist at the CSIR-Central Institute of Mining a
 Dr. Debadutta Mohanty is a Senior Scientist at the CSIR-Central Institute of Mining and Fuel Research. He holds a PhD degree in Geology from IIT Roorkee. He has more than thirty publications in peer-reviewed journals and conference proceedings. He has also held visiting positions at the Southern Illinois University at Carbondale, Ergo Exergy Inc and The University of Queensland. He is a fellow of the Geological Society of India. As part of a SERB funded project, he designed and developed indigenously a unique high pressure adsorption isotherm experimental setup at CSIR-CIMFR for research on unconventional gas reservoir systems and CO2- sequestration under replicated in situ conditions.
 
         </item>
+        <item>Shri P K Jain is currently Deputy General Manager (Prod.) at the Institute of Reservoir Studies, ONGC, Ahmedabad.
+            He holds a BTech degree in Chemical Engineering from IIT Kanpur and an MBA Degree in Finance from IGNOU.
+            He has more than 30 years of experience in E and P business with ONGC. He has worked at Mehsana and Assam assets and Institute of Oil and Gas Production Technology (IOGPT), Panvel and Institute of Reservoir Studies (IRS), Ahmedabad,
+            institutes of ONGC. Presently he is associated with UCG Group at IRS, Ahmedabad.</item>
+        <item>Shri Sunil K Singh is a Petroleum Engineering graduate (1985) from the Indian School of Mines. He started his professional career as a Drilling Engineer for ONGC and Essar Oil Limited. Subsequently, he worked as Stimulation Engineer in Well Stimulation Services, ONGC till 1999, followed by a stint in Joint Venture Group of ONGC. Shri Singh joined Directorate General of Hydrocarbon (DGH) in 2013 and had been Coordinator of major producing sharing contracts. Currently, he holds the responsibility of Head of Department of Alternate Energy and the Department of PEL/ PML group in DGH. One of the major responsibilities as HOD (Alternate Energy) includes implementation of National Program for new energy resources like Coal Bed Methane, Gas hydrate and Shale Gas and Oil.
+            He is also associated with number of policy formulation for the Contract regimes such as Pre-NELP, NELP and HELP.</item>
     </string-array>
     <string-array name="eventtime">
         <item>09:00-10:00</item>
