@@ -73,7 +73,7 @@
 
         android:id="@+id/cv3"
         android:layout_weight="9"
-        android:src="@drawable/pic14"/>
+        android:src="@drawable/pic15"/>
     <TextView
         android:layout_width="match_parent"
         android:padding="10dp"
@@ -84,13 +84,13 @@
         android:text="We arranged training for CCL personnel"/>
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="250dp"
-        android:scaleType="fitXY"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:scaleType="fitXY"
 
-        android:id="@+id/cv4"
-        android:layout_weight="9"
-        android:src="@drawable/pic16"/>
+    android:id="@+id/cv4"
+    android:layout_weight="9"
+    android:src="@drawable/pic16"/>
     <TextView
         android:layout_width="match_parent"
         android:padding="10dp"
@@ -99,7 +99,38 @@
         android:textSize="20sp"
         android:gravity="center"
         android:text="CSIR-CIMFR team at IISF-2016"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="fitXY"
 
+        android:id="@+id/cv5"
+        android:layout_weight="9"
+        android:src="@drawable/pic21"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:text="Inauguration of the HPAI facility at CSIR-CIMFR"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="fitXY"
+
+        android:id="@+id/cv6"
+        android:layout_weight="9"
+        android:src="@drawable/pic22"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:text="ETP: CBM E and P 2017"/>
 
 </LinearLayout>
 
