@@ -68,7 +68,7 @@ int PERMISSION_REQUEST_CODE=1;
 
                 Intent intent = new Intent(Intent.ACTION_SENDTO);
                 intent.setType("text/html");
-                intent.setData(Uri.parse("mailto:pradeep.cimfr@yahoo.com"));
+                intent.setData(Uri.parse("mailto:dcmrips@yahoo.co.in"));
                 startActivity(intent);
 
             }

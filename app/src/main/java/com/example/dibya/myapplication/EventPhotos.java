@@ -12,7 +12,7 @@ import android.widget.ImageView;
 
 public class EventPhotos extends AppCompatActivity implements View.OnClickListener {
 
-    ImageView a,b,c,d;
+    ImageView a,b,c,d,e,f;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,13 +28,15 @@ public class EventPhotos extends AppCompatActivity implements View.OnClickListen
 
         c= (ImageView) findViewById(R.id.cv3);
         d= (ImageView) findViewById(R.id.cv4);
-
+        e=(ImageView) findViewById(R.id.cv5);
+        f=(ImageView) findViewById(R.id.cv6);
 
         a.setOnClickListener(this);
         b.setOnClickListener(this);
         c.setOnClickListener(this);
         d.setOnClickListener(this);
-
+        e.setOnClickListener(this);
+        f.setOnClickListener(this);
 
 
     }
@@ -65,6 +67,18 @@ public class EventPhotos extends AppCompatActivity implements View.OnClickListen
 
                 i=new Intent(this,ShowImage.class);
                 i.putExtra("no","4");
+                startActivity(i);
+                break;
+            case R.id.cv5:
+
+                i=new Intent(this,ShowImage.class);
+                i.putExtra("no","5");
+                startActivity(i);
+                break;
+            case R.id.cv6:
+
+                i=new Intent(this,ShowImage.class);
+                i.putExtra("no","6");
                 startActivity(i);
                 break;
 

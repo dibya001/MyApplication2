@@ -21,9 +21,13 @@ public class ShowImage extends AppCompatActivity {
        else  if(s.equals("2"))
             img.setImageResource(R.drawable.pic14);
         else  if(s.equals("3"))
-            img.setImageResource(R.drawable.pic14);
-        else
+            img.setImageResource(R.drawable.pic15);
+        else if(s.equals("4"))
             img.setImageResource(R.drawable.pic16);
+        else if(s.equals("5"))
+            img.setImageResource(R.drawable.pic21);
+        else if(s.equals("6"))
+            img.setImageResource(R.drawable.pic22);
 
 
     }

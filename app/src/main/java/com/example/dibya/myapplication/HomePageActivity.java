@@ -9,6 +9,9 @@ import android.support.v7.widget.Toolbar;
 
 import java.util.ArrayList;
 
+import jp.wasabeef.recyclerview.animators.FadeInAnimator;
+import jp.wasabeef.recyclerview.animators.SlideInLeftAnimator;
+
 public class HomePageActivity extends AppCompatActivity {
     TestAdapter rcAdapter;
     RecyclerView rc;
@@ -25,6 +28,7 @@ public class HomePageActivity extends AppCompatActivity {
         rcAdapter = new TestAdapter(this,details);
 
         makegrid();
+      //  rc.setItemAnimator(new FadeInAnimator());
         //fetch();
     }
 
