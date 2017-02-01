@@ -23,31 +23,24 @@ public class HomePageActivity extends AppCompatActivity {
         Toolbar tb= (Toolbar) findViewById(R.id.tb);
         setSupportActionBar(tb);
         tb.setTitleTextColor(Color.WHITE);
-       rc= (RecyclerView) findViewById(R.id.rc);
+        rc= (RecyclerView) findViewById(R.id.rc);
         setData();
         rcAdapter = new TestAdapter(this,details);
 
         makegrid();
       //  rc.setItemAnimator(new FadeInAnimator());
         //fetch();
-
-
-
-
-
-
-
     }
 
     private void setData() {
         details=new ArrayList<>();
-        details.add("program");
-        details.add("session");
-        details.add("speakers");
-        details.add("organizers");
-        details.add("location");
-        details.add("event photos");
-        details.add("contact");
+        details.add("Program");
+        details.add("Session");
+        details.add("Speakers");
+        details.add("Organizers");
+        details.add("Location");
+        details.add("Event Photos");
+        details.add("Contact");
 
 
     }
