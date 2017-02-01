@@ -20,19 +20,12 @@ public class HomePageActivity extends AppCompatActivity {
         Toolbar tb= (Toolbar) findViewById(R.id.tb);
         setSupportActionBar(tb);
         tb.setTitleTextColor(Color.WHITE);
-       rc= (RecyclerView) findViewById(R.id.rc);
+        rc= (RecyclerView) findViewById(R.id.rc);
         setData();
         rcAdapter = new TestAdapter(this,details);
 
         makegrid();
         //fetch();
-
-
-
-
-
-
-
     }
 
     private void setData() {
