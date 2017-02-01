@@ -34,10 +34,12 @@
         android:layout_width="match_parent"
         android:layout_height="250dp"
         android:scaleType="fitXY"
-
         android:id="@+id/cv1"
         android:layout_weight="9"
-        android:src="@drawable/pic13"/>
+        android:src="@drawable/pic13"
+        android:layout_marginTop="@dimen/card_view_margin_vertical"
+        android:layout_marginLeft="@dimen/card_view_margin_horizontal"
+        android:layout_marginRight="@dimen/card_view_margin_horizontal"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -46,6 +48,7 @@
         android:layout_weight="3"
         android:textSize="20sp"
         android:gravity="center"
+        android:textColor="@color/textcolor"
         android:text="Precursor event of IISF-2016"/>
 
 
@@ -53,7 +56,8 @@
         android:layout_width="match_parent"
         android:layout_height="250dp"
         android:scaleType="fitXY"
-
+        android:layout_marginLeft="@dimen/card_view_margin_horizontal"
+        android:layout_marginRight="@dimen/card_view_margin_horizontal"
         android:id="@+id/cv2"
         android:layout_weight="9"
         android:src="@drawable/pic14"/>
@@ -64,13 +68,15 @@
         android:layout_weight="3"
         android:textSize="20sp"
         android:gravity="center"
+        android:textColor="@color/textcolor"
         android:text="Indo-US Workshop on Coal Mine Methane"/>
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="250dp"
         android:scaleType="fitXY"
-
+        android:layout_marginLeft="@dimen/card_view_margin_horizontal"
+        android:layout_marginRight="@dimen/card_view_margin_horizontal"
         android:id="@+id/cv3"
         android:layout_weight="9"
         android:src="@drawable/pic15"/>
@@ -81,13 +87,15 @@
         android:layout_weight="3"
         android:textSize="20sp"
         android:gravity="center"
+        android:textColor="@color/textcolor"
         android:text="We arranged training for CCL personnel"/>
 
     <ImageView
     android:layout_width="match_parent"
     android:layout_height="250dp"
     android:scaleType="fitXY"
-
+    android:layout_marginLeft="@dimen/card_view_margin_horizontal"
+    android:layout_marginRight="@dimen/card_view_margin_horizontal"
     android:id="@+id/cv4"
     android:layout_weight="9"
     android:src="@drawable/pic16"/>
@@ -98,12 +106,14 @@
         android:layout_weight="3"
         android:textSize="20sp"
         android:gravity="center"
+        android:textColor="@color/textcolor"
         android:text="CSIR-CIMFR team at IISF-2016"/>
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="250dp"
         android:scaleType="fitXY"
-
+        android:layout_marginLeft="@dimen/card_view_margin_horizontal"
+        android:layout_marginRight="@dimen/card_view_margin_horizontal"
         android:id="@+id/cv5"
         android:layout_weight="9"
         android:src="@drawable/pic21"/>
@@ -114,12 +124,14 @@
         android:layout_weight="3"
         android:textSize="20sp"
         android:gravity="center"
+        android:textColor="@color/textcolor"
         android:text="Inauguration of the HPAI facility at CSIR-CIMFR"/>
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="250dp"
         android:scaleType="fitXY"
-
+        android:layout_marginLeft="@dimen/card_view_margin_horizontal"
+        android:layout_marginRight="@dimen/card_view_margin_horizontal"
         android:id="@+id/cv6"
         android:layout_weight="9"
         android:src="@drawable/pic22"/>
@@ -130,6 +142,7 @@
         android:layout_weight="3"
         android:textSize="20sp"
         android:gravity="center"
+        android:textColor="@color/textcolor"
         android:text="ETP: CBM E and P 2017"/>
 
 </LinearLayout>

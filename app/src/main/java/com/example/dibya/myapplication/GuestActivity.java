@@ -47,17 +47,10 @@ public class GuestActivity extends AppCompatActivity {
         category=getIntent().getStringExtra("category");
         recyclerView = (RecyclerView) findViewById(R.id.recycle);
 
-        lLayout = new LinearLayoutManager(this);
-        rcAdapter = new RecyclerViewAdapter(this, guest,category);
         setData();
+        rcAdapter = new RecyclerViewAdapter(this, guest,category);
         makegrid();
         //fetch();
-
-
-
-
-
-
 
     }
 

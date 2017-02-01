@@ -34,13 +34,13 @@ public class HomePageActivity extends AppCompatActivity {
 
     private void setData() {
         details=new ArrayList<>();
-        details.add("program");
-        details.add("session");
-        details.add("speakers");
-        details.add("organizers");
-        details.add("location");
-        details.add("event photos");
-        details.add("contact");
+        details.add("Program");
+        details.add("Session");
+        details.add("Speakers");
+        details.add("Organizers");
+        details.add("Location");
+        details.add("Event Photos");
+        details.add("Contact");
 
 
     }

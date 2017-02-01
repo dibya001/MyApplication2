@@ -1,13 +1,10 @@
 package com.example.dibya.myapplication;
 
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
-import android.os.Handler;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,7 +12,6 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -87,7 +83,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
         ad.getWindow().setLayout(800, 800);
     }
 
-    public void start(final int pos) {
+    public void startDetails(final int pos) {
                 Intent i = new Intent(context, ShowDetailsActivity.class);
                 i.putExtra("id",pos);
 
@@ -125,7 +121,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
                 //openWindow(getAdapterPosition());
             }
             else
-            start(getAdapterPosition());
+            startDetails(getAdapterPosition());
         }
 
 

@@ -35,9 +35,12 @@ public class EventLocation extends AppCompatActivity {
                 float lat = 28.610821f;
                 float lng = 77.2205578f;
 
-                String maplLabel = "ABC Label";
-                final Intent intent = new Intent(Intent.ACTION_VIEW,
-                        Uri.parse("geo:0,0?q="+lat+","+lng+"&z=16 (" + maplLabel + ")"));
+                String maplLabel = "Maulana Azad Rd ";
+//                final Intent intent = new Intent(Intent.ACTION_VIEW,
+//                        Uri.parse("geo:0,0?q="+lat+","+lng+"&z=16 (" + maplLabel + ")"));
+                Intent intent = new Intent(android.content.Intent.ACTION_VIEW,
+                        Uri.parse("google.navigation:q="+"Maulana Azad Rd" +
+                                "\nSouth Block, Man Singh Road Area\nNew Delhi, Delhi 110001"));
                 startActivity(intent);
             }
         });

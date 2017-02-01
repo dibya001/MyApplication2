@@ -10,408 +10,427 @@
         android:layout_height="wrap_content"
         android:minHeight="?attr/actionBarSize"
         android:background="@color/colorPrimary"
-        android:id="@+id/tb_committee"
-        />
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/tb_committee" />
 
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_committee"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context="com.example.dibya.myapplication.Committee">
-    <TextView
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_gravity="fill_vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Chairman"
-        android:layout_marginBottom="10dp"
-        android:textStyle="bold"
-        android:textSize="24sp"
-        android:textColor="#000"
-        android:layout_margin="16dp"
-        android:gravity="center"
-        />
-    <android.support.v7.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:cardElevation="3dp"
-        app:cardCornerRadius="3dp"
-        android:layout_marginBottom="5dp"
-        >
-        <LinearLayout
+        android:layout_height="match_parent">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/activity_committee"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            >
-
+            tools:context="com.example.dibya.myapplication.Committee">
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="18sp"
-                android:textColor="#000"
-                android:textStyle="italic"
+                android:text="Chairman"
                 android:layout_marginBottom="10dp"
-               android:text="Dr. Pradeep K Singh\nDirector\nCSIR-CIMFR, Dhanbad"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:textColor="#000"
+                android:layout_margin="16dp"
+                android:gravity="center"
                 />
-        </LinearLayout>
-    </android.support.v7.widget.CardView>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Organizing Secretary"
-        android:layout_marginBottom="10dp"
-        android:textStyle="bold"
-        android:textColor="#000"
-        android:textSize="24sp"
-        android:gravity="center"
-        android:layout_margin="16dp"
-        />
-    <android.support.v7.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:cardElevation="3dp"
-        app:cardCornerRadius="3dp"
-        android:layout_marginBottom="5dp"
-        >
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            >
-
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/card_view_margin_horizontal"
+                android:layout_marginRight="@dimen/card_view_margin_horizontal"
+                >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textColor="#000"
+                        android:layout_marginLeft="@dimen/card_view_margin_horizontal"
+                        android:layout_marginRight="@dimen/card_view_margin_horizontal"
+                       android:text="Dr. Pradeep K Singh\nDirector\nCSIR-CIMFR, Dhanbad"
+                        />
+            </android.support.v7.widget.CardView>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="18sp"
-                android:layout_marginBottom="10dp"
+                android:text="Organizing Secretary"
+                android:textStyle="bold"
                 android:textColor="#000"
-                android:textStyle="italic"
-                android:text="Dr. Ajay K Singh\nNodal Scientist, Project CoalGasUrja\nCSIR-CIMFR, Dhanbad"
+                android:textSize="24sp"
+                android:gravity="center"
+                android:layout_margin="16dp"
                 />
-        </LinearLayout>
-    </android.support.v7.widget.CardView>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Joint Organizing Secretary"
-        android:layout_marginBottom="10dp"
-        android:textStyle="bold"
-        android:textColor="#000"
-        android:gravity="center"
-        android:layout_margin="16dp"
-        android:textSize="24sp"
-        />
-    <android.support.v7.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:cardElevation="3dp"
-        app:cardCornerRadius="3dp"
-        android:layout_marginBottom="5dp"
-        >
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            >
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="3dp"
+                app:cardCornerRadius="3dp"
+                android:layout_marginLeft="@dimen/card_view_margin_horizontal"
+                android:layout_marginRight="@dimen/card_view_margin_horizontal">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textColor="#000"
+                        android:layout_marginLeft="@dimen/card_view_margin_horizontal"
+                        android:layout_marginRight="@dimen/card_view_margin_horizontal"
+                        android:text="Dr. Ajay K Singh\nNodal Scientist, Project CoalGasUrja\nCSIR-CIMFR, Dhanbad"
+                        />
+            </android.support.v7.widget.CardView>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="18sp"
+                android:text="Joint Organizing Secretary"
                 android:layout_marginBottom="10dp"
+                android:textStyle="bold"
                 android:textColor="#000"
-                android:textStyle="italic"
-                android:text="Dr. Debadutta Mohanty\nSeniorScientist\nCSIR-CIMFR"
-                android:id="@+id/textView" />
+                android:gravity="center"
+                android:layout_margin="16dp"
+                android:textSize="24sp"
+                />
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="3dp"
+                app:cardCornerRadius="3dp"
+                android:layout_marginLeft="@dimen/card_view_margin_horizontal"
+                android:layout_marginRight="@dimen/card_view_margin_horizontal"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:layout_marginBottom="10dp"
+                        android:textColor="#000"
+                        android:layout_marginLeft="@dimen/card_view_margin_horizontal"
+                        android:layout_marginRight="@dimen/card_view_margin_horizontal"
+                        android:text="Dr. Debadutta Mohanty\nSeniorScientist\nCSIR-CIMFR"
+                        android:id="@+id/textView" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Advisers"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:layout_margin="16dp"
+                />
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="3dp"
+                app:cardCornerRadius="3dp"
+                android:layout_marginLeft="@dimen/card_view_margin_horizontal"
+                android:layout_marginRight="@dimen/card_view_margin_horizontal"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:layout_marginLeft="@dimen/card_view_margin_horizontal"
+                    android:layout_marginRight="@dimen/card_view_margin_horizontal"
+                    android:text="Prof. Durga C Panigrahi, Director,\nIIT (ISM) Dhanbad"
+                    />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="3dp"
+                app:cardCornerRadius="3dp"
+                android:layout_marginLeft="@dimen/card_view_margin_horizontal"
+                android:layout_marginRight="@dimen/card_view_margin_horizontal"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:layout_marginLeft="@dimen/card_view_margin_horizontal"
+                    android:layout_marginRight="@dimen/card_view_margin_horizontal"
+                    android:text="Dr. Virendra M Tiwari, Director,\nCSIR-NGRI"
+                    />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="3dp"
+                app:cardCornerRadius="3dp"
+                android:layout_marginLeft="@dimen/card_view_margin_horizontal"
+                android:layout_marginRight="@dimen/card_view_margin_horizontal"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:layout_marginLeft="@dimen/card_view_margin_horizontal"
+                    android:layout_marginRight="@dimen/card_view_margin_horizontal"
+                    android:text="Dr. Pijush Pal Roy,\nOutstanding Scientist,\nCSIR-CIMFR"
+                    />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="3dp"
+                app:cardCornerRadius="3dp"
+                android:layout_marginLeft="@dimen/card_view_margin_horizontal"
+                android:layout_marginRight="@dimen/card_view_margin_horizontal"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:layout_marginLeft="@dimen/card_view_margin_horizontal"
+                    android:layout_marginRight="@dimen/card_view_margin_horizontal"
+                    android:text="Prof. T Sundararajan,\nProfessor,\nIIT Madras"
+                    />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="3dp"
+                app:cardCornerRadius="3dp"
+                android:layout_marginBottom="5dp"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:layout_marginLeft="@dimen/card_view_margin_horizontal"
+                    android:layout_marginRight="@dimen/card_view_margin_horizontal"
+                    android:text="Prof. Amit Garg, Professor,\nIIM Ahmedabad"
+                    />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="3dp"
+                app:cardCornerRadius="3dp"
+                android:layout_marginLeft="@dimen/card_view_margin_horizontal"
+                android:layout_marginRight="@dimen/card_view_margin_horizontal"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:layout_marginLeft="@dimen/card_view_margin_horizontal"
+                    android:layout_marginRight="@dimen/card_view_margin_horizontal"
+                    android:text="Prof. Sanjay M Mahajani,\nProfessor,\nIIT Bombay"
+                    />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="3dp"
+                app:cardCornerRadius="3dp"
+                android:layout_marginLeft="@dimen/card_view_margin_horizontal"
+                android:layout_marginRight="@dimen/card_view_margin_horizontal"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:layout_marginLeft="@dimen/card_view_margin_horizontal"
+                    android:layout_marginRight="@dimen/card_view_margin_horizontal"
+                    android:text="Prof. Anand B Rao,\nAssociate Professor,\nIIT Bombay"
+                    />
+            </android.support.v7.widget.CardView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Members"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="24sp"
+                android:layout_margin="16dp"
+                />
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                app:cardElevation="3dp"
+                app:cardCornerRadius="3dp"
+                android:layout_marginLeft="@dimen/card_view_margin_horizontal"
+                android:layout_marginRight="@dimen/card_view_margin_horizontal"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:layout_marginLeft="@dimen/card_view_margin_horizontal"
+                    android:layout_marginRight="@dimen/card_view_margin_horizontal"
+                    android:text="Dr. Kalendra B Singh,\nCSIR-CIMFR"
+                    />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                app:cardElevation="3dp"
+                app:cardCornerRadius="3dp"
+                android:layout_marginLeft="@dimen/card_view_margin_horizontal"
+                android:layout_marginRight="@dimen/card_view_margin_horizontal"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:layout_marginLeft="@dimen/card_view_margin_horizontal"
+                    android:layout_marginRight="@dimen/card_view_margin_horizontal"
+                    android:text="Dr. Rajendra Singh,\nCSIR-CIMFR"
+                    />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                app:cardElevation="3dp"
+                app:cardCornerRadius="3dp"
+                android:layout_marginLeft="@dimen/card_view_margin_horizontal"
+                android:layout_marginRight="@dimen/card_view_margin_horizontal"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:layout_marginLeft="@dimen/card_view_margin_horizontal"
+                    android:layout_marginRight="@dimen/card_view_margin_horizontal"
+                    android:text="Prof. Atul K Varma,\nIIT (ISM) Dhanbad"
+                    />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                app:cardElevation="3dp"
+                app:cardCornerRadius="3dp"
+                android:layout_marginLeft="@dimen/card_view_margin_horizontal"
+                android:layout_marginRight="@dimen/card_view_margin_horizontal"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:layout_marginLeft="@dimen/card_view_margin_horizontal"
+                    android:layout_marginRight="@dimen/card_view_margin_horizontal"
+                    android:text="Dr H V S Satyanarayana,\nCSIR-NGRI"
+                    />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                app:cardElevation="3dp"
+                app:cardCornerRadius="3dp"
+                android:layout_marginLeft="@dimen/card_view_margin_horizontal"
+                android:layout_marginRight="@dimen/card_view_margin_horizontal"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:layout_marginLeft="@dimen/card_view_margin_horizontal"
+                    android:layout_marginRight="@dimen/card_view_margin_horizontal"
+                    android:text="Dr. Dipankar Chatterjee,\nCSIR-CMERI"
+                    />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                app:cardElevation="3dp"
+                app:cardCornerRadius="3dp"
+                android:layout_marginLeft="@dimen/card_view_margin_horizontal"
+                android:layout_marginRight="@dimen/card_view_margin_horizontal"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:layout_marginLeft="@dimen/card_view_margin_horizontal"
+                    android:layout_marginRight="@dimen/card_view_margin_horizontal"
+                    android:text="Dr. Harendra Singh,\nCSIR-CIMFR"
+                    />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                app:cardElevation="3dp"
+                app:cardCornerRadius="3dp"
+                android:layout_marginLeft="@dimen/card_view_margin_horizontal"
+                android:layout_marginRight="@dimen/card_view_margin_horizontal"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:layout_marginLeft="@dimen/card_view_margin_horizontal"
+                    android:layout_marginRight="@dimen/card_view_margin_horizontal"
+                    android:text="Dr. Vinod A Mendhe,\nCSIR-CIMFR"
+                    />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                app:cardElevation="3dp"
+                app:cardCornerRadius="3dp"
+                android:layout_marginLeft="@dimen/card_view_margin_horizontal"
+                android:layout_marginRight="@dimen/card_view_margin_horizontal"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:layout_marginLeft="@dimen/card_view_margin_horizontal"
+                    android:layout_marginRight="@dimen/card_view_margin_horizontal"
+                    android:text="Shri John Kispotta\nCSIR-CIMFR"
+                    />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                app:cardElevation="3dp"
+                app:cardCornerRadius="3dp"
+                android:layout_marginLeft="@dimen/card_view_margin_horizontal"
+                android:layout_marginRight="@dimen/card_view_margin_horizontal"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:textStyle="italic"
+                    android:layout_marginLeft="@dimen/card_view_margin_horizontal"
+                    android:layout_marginRight="@dimen/card_view_margin_horizontal"
+                    android:text="Shri Jaywardhan Kumar\nCSIR-CIMFR"
+                    />
+            </android.support.v7.widget.CardView>
+
+
         </LinearLayout>
-    </android.support.v7.widget.CardView>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Advisers"
-        android:textStyle="bold"
-        android:textColor="#000"
-        android:gravity="center"
-        android:textSize="24sp"
-        android:layout_margin="16dp"
-        />
-    <android.support.v7.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        app:cardElevation="3dp"
-        app:cardCornerRadius="3dp"
-        android:layout_marginBottom="5dp"
-        >
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="18sp"
-            android:textColor="#000"
-            android:textStyle="italic"
-            android:text="Prof. Durga C Panigrahi, Director,\n IIT (ISM) Dhanbad"
-            />
-    </android.support.v7.widget.CardView>
-    <android.support.v7.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        app:cardElevation="3dp"
-        app:cardCornerRadius="3dp"
-        android:layout_marginBottom="5dp"
-        >
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="18sp"
-            android:textColor="#000"
-            android:textStyle="italic"
-            android:text="Dr. Virendra M Tiwari, Director,\n CSIR-NGRI"
-            />
-    </android.support.v7.widget.CardView>
-
-    <android.support.v7.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        app:cardElevation="3dp"
-        app:cardCornerRadius="3dp"
-        android:layout_marginBottom="5dp"
-        >
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="18sp"
-            android:textColor="#000"
-            android:textStyle="italic"
-            android:text="Dr. Pijush Pal Roy,\n Outstanding Scientist,\n CSIR-CIMFR"
-            />
-    </android.support.v7.widget.CardView>
-
-    <android.support.v7.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        app:cardElevation="3dp"
-        app:cardCornerRadius="3dp"
-        android:layout_marginBottom="5dp"
-        >
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="18sp"
-            android:textColor="#000"
-            android:textStyle="italic"
-            android:text="Prof. T Sundararajan,\n Professor,\n IIT Madras"
-            />
-    </android.support.v7.widget.CardView>
-
-    <android.support.v7.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        app:cardElevation="3dp"
-        app:cardCornerRadius="3dp"
-        android:layout_marginBottom="5dp"
-        >
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="18sp"
-            android:textColor="#000"
-            android:textStyle="italic"
-            android:text="Prof. Amit Garg, Professor,\n IIM Ahmedabad"
-            />
-    </android.support.v7.widget.CardView>
-    <android.support.v7.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        app:cardElevation="3dp"
-        app:cardCornerRadius="3dp"
-        android:layout_marginBottom="5dp"
-        >
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="18sp"
-            android:textColor="#000"
-            android:textStyle="italic"
-            android:text="Prof. Sanjay M Mahajani,\n Professor,\n IIT Bombay"
-            />
-    </android.support.v7.widget.CardView>
-    <android.support.v7.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        app:cardElevation="3dp"
-        app:cardCornerRadius="3dp"
-        android:layout_marginBottom="5dp"
-        >
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="18sp"
-            android:textColor="#000"
-            android:textStyle="italic"
-            android:text="Prof. Anand B Rao,\n Associate Professor,\n IIT Bombay"
-            />
-    </android.support.v7.widget.CardView>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:text="Members"
-        android:gravity="center"
-        android:textStyle="bold"
-        android:textColor="#000"
-        android:textSize="24sp"
-        android:layout_margin="16dp"
-        />
-    <android.support.v7.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        app:cardElevation="3dp"
-        app:cardCornerRadius="3dp"
-        android:layout_marginBottom="5dp"
-        >
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="18sp"
-            android:textColor="#000"
-            android:textStyle="italic"
-            android:text="Dr. Kalendra B Singh,\n CSIR-CIMFR"
-            />
-    </android.support.v7.widget.CardView>
-    <android.support.v7.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        app:cardElevation="3dp"
-        app:cardCornerRadius="3dp"
-        android:layout_marginBottom="5dp"
-        >
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="18sp"
-            android:textColor="#000"
-            android:textStyle="italic"
-            android:text="Dr. Rajendra Singh,\n CSIR-CIMFR"
-            />
-    </android.support.v7.widget.CardView>
-    <android.support.v7.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        app:cardElevation="3dp"
-        app:cardCornerRadius="3dp"
-        android:layout_marginBottom="5dp"
-        >
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="18sp"
-            android:textColor="#000"
-            android:textStyle="italic"
-            android:text="Prof. Atul K Varma,\n IIT (ISM) Dhanbad"
-            />
-    </android.support.v7.widget.CardView>
-    <android.support.v7.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        app:cardElevation="3dp"
-        app:cardCornerRadius="3dp"
-        android:layout_marginBottom="5dp"
-        >
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="18sp"
-            android:textColor="#000"
-            android:textStyle="italic"
-            android:text="Dr H V S Satyanarayana,\n CSIR-NGRI"
-            />
-    </android.support.v7.widget.CardView>
-    <android.support.v7.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        app:cardElevation="3dp"
-        app:cardCornerRadius="3dp"
-        android:layout_marginBottom="5dp"
-        >
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="18sp"
-            android:textColor="#000"
-            android:textStyle="italic"
-            android:text="Dr. Dipankar Chatterjee,\n CSIR-CMERI"
-            />
-    </android.support.v7.widget.CardView>
-    <android.support.v7.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        app:cardElevation="3dp"
-        app:cardCornerRadius="3dp"
-        android:layout_marginBottom="5dp"
-        >
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="18sp"
-            android:textColor="#000"
-            android:textStyle="italic"
-            android:text="Dr. Harendra Singh,\n CSIR-CIMFR"
-            />
-    </android.support.v7.widget.CardView>
-    <android.support.v7.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        app:cardElevation="3dp"
-        app:cardCornerRadius="3dp"
-        android:layout_marginBottom="5dp"
-        >
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="18sp"
-            android:textColor="#000"
-            android:textStyle="italic"
-            android:text="Dr. Vinod A Mendhe,\n CSIR-CIMFR"
-            />
-    </android.support.v7.widget.CardView>
-    <android.support.v7.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        app:cardElevation="3dp"
-        app:cardCornerRadius="3dp"
-        android:layout_marginBottom="5dp"
-        >
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="18sp"
-            android:textColor="#000"
-            android:textStyle="italic"
-            android:text="Shri John Kispotta\nCSIR-CIMFR"
-            />
-    </android.support.v7.widget.CardView>
-    <android.support.v7.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        app:cardElevation="3dp"
-        app:cardCornerRadius="3dp"
-        android:layout_marginBottom="5dp"
-        >
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="18sp"
-            android:textColor="#000"
-            android:textStyle="italic"
-            android:text="Shri Jaywardhan Kumar\n CSIR-CIMFR"
-            />
-    </android.support.v7.widget.CardView>
-
-
-</LinearLayout>
-</ScrollView>
+    </ScrollView>
 </LinearLayout>
