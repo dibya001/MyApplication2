@@ -100,96 +100,99 @@ Dr. Debadutta Mohanty is a Senior Scientist at the CSIR-Central Institute of Min
             He is also associated with number of policy formulation for the Contract regimes such as Pre-NELP, NELP and HELP.</item>
     </string-array>
     <string-array name="eventtime">
-        <item>09:00-10:00</item>
-        <item>10:00-10:30</item>
-        <item>10:30-11:45</item>
-        <item>11:45-13:00</item>
+        <item>10:00-11:00</item>
+        <item>11:00-11:30</item>
+        <item>11:30-12:30</item>
+        <item>12:30-13:00</item>
+        <item>13:00-13:15</item>
+        <item>13:15-13:30</item>
+        <item>13:30-14:30</item>
+        <item>14:30-15:30</item>
+        <item>15:30-16:30</item>
+        <item>16.30-16.45</item>
+        <item>16:45-17:45</item>
+        <item>17:45-18:45</item>
+        <item>10:00-11:00</item>
+        <item>11:00-11:30</item>
+        <item>11:30-12:00</item>
+        <item>12:00-13:00</item>
         <item>13:00-14:00</item>
-        <item>14:00-15:15</item>
-        <item>15:15-16:30</item>
-        <item>16:30-16:45</item>
-        <item>16:45-18:00</item>
-        <item>09:00-10.15</item>
-        <item>10.15-11.30</item>
-        <item>11.30-11.45</item>
-        <item>11.45-13.00</item>
-        <item>13.00-14.00</item>
-        <item>14.00-15.00</item>
-        <item>15.00-16.00</item>
-        <item>16.00-16.15</item>
-        <item>16.15-17.15</item>
-        <item>17.15-18.00</item>
+        <item>14:00-15:00</item>
+        <item>15:00-16:00</item>
+        <item>16:00-16:15</item>
+        <item>16:15-17:15</item>
+        <item>17:15-18:00</item>
 
     </string-array>
     <string-array name="eventname">
         <item>Joint Inaugural Session of UCG-2017 and EMT-2017</item>
         <item>HIGH TEA</item>
-        <item>Role of clean coal technology
-in India’s energy security</item>
+        <item>Relevance of clean coal technology for India’s energy security: a policy perspective</item>
         <item>Underground Coal
 Gasification: A Synoptic
 View</item>
+        <item>Developing a feasibility assessment model for UCG in northeastern India</item>
+        <item>Plant level controls in coal gasification for cleaner avenues of electricity: a preliminary analysis in Indian context</item>
         <item>LUNCH</item>
-        <item>Global Development of
-Commercial Underground
-Coal Gasification</item>
-        <item>Mathematical Modelling of
-Coal Gasification Processes</item>
+        <item>Global development of commercial underground coal gasification</item>
+        <item>Mathematical modelling of coal gasification processes</item>
         <item>TEA BREAK</item>
-        <item>Some modelling and
-experimental studies on UCG
-in India</item>
-        <item>Application of the Exergy
-UCG Technology in
-International CTX Projects</item>
-        <item>CO2 Capture and Storage in
-Coal Gasification Projects</item>
+        <item>Some modelling and experimental studies on UCG in India</item>
+        <item>CO2 capture and storage in coal gasification projects</item>
+        <item>Application of the Exergy UCG Technology in International CTX Projects</item>
         <item>TEA BREAK</item>
+        <item>
+            Policy and regulatory issues for UCG in India
+        </item>
         <item>Experience of ONGC on UCG in India</item>
         <item>LUNCH</item>
         <item>Geological controls in UCG</item>
         <item>Computational studies for UCG in India</item>
-        <item>
-            TEA BREAK
-        </item>
-        <item>Panel Discussion: Policy
-Focus on UCG in India</item>
-        <item>Valedictory Session</item>
-
-
+        <item>TEA BREAK</item>
+        <item>Panel Discussion: Policy Focus on UCG in India</item>
+        <item>Joint Valedictory Session of UCG-2017 and EMT-2017</item>
     </string-array>
     <string-array name="eventspeaker">
-
-        <item>Dr. P K Singh, Chair,
-            \nUCG-2017
-            Organizing Secretaries</item>
+        <item>zz</item>
         <item> zz </item>
         <item>Prof. Amit Garg\nIIM Ahmedabad</item>
+        <item>Dr. Ajay K Singh\nCSIR-CIMFR, Dhanbad</item>
+        <item>Dr. Ajay K Singh\nCSIR-CIMFR, Dhanbad</item>
         <item>Dr. Ajay K Singh\nCSIR-CIMFR, Dhanbad</item>
         <item>zz</item>
         <item>Dr. Michael S Blinderman\nErgo Exergy Inc., Canada</item>
         <item>Prof T Sundararajan\nIIT Madras</item>
         <item>zz</item>
         <item>Prof. Sanjay M Mahajani\nIIT Bombay</item>
-        <item>
-            Dr. Michael S Blinderman\nErgo Exergy Inc., Canada
-        </item>
         <item>Prof. Anand B Rao\nIIT Bombay</item>
+        <item>Dr. Michael S Blinderman
+Ergo Exergy Inc., Canada
+</item>
         <item>zz</item>
-        <item>Mr. P K Jain\nIRS, ONGC, Ahmedabad</item>
+        <item>Dr. Sunil K Singh\n
+DGH
+</item>
+
+        <item>Mr. P K Jain\n
+IRS, ONGC, Ahmedabad
+</item>
         <item>zz</item>
-        <item>Dr. Debadutta Mohanty\nCSIR-CIMFR, Dhanbad</item>
     <item>Dr. Dipankar Chatterjee\nCSIR-CMERI, Durgapur</item>
+    <item>	Dr. Debadutta Mohanty\n
+CSIR-CIMFR, Dhanbad
+</item>
+        <item>Dr. Dipankar Chatterjee\n
+CSIR-CMERI, Durgapur
+</item>
         <item>zz</item>
-        <item>Dr. Kirit S Parikh (Chair)
-            \nMr. P K Jain
-            \nDr. Michael S Blinderman
-            \nDr. Dipankar Chatterjee
-            \nDr. Ajay K Singh</item>
+        <item>Dr. Kirit S Parikh (Chair)\n
+	Mr. P K Jain\n
+	Dr. Michael S Blinderman\n
+	Dr. Dipankar Chatterjee\n
+	Dr. Ajay K Singh
+</item>
         <item>
-            Dr. Kirit S Parikh (Chief Guest)
-            \nDr. P K Singh, Chair, UCG-2017
-            \nOrganizing Secretaries
+          zz
         </item>
     </string-array>
 

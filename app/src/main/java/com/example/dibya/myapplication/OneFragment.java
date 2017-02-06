@@ -57,7 +57,7 @@ public class OneFragment extends Fragment {
         String ename[]=getResources().getStringArray(R.array.eventname);
         String sname[]=getResources().getStringArray(R.array.eventspeaker);
 
-        for(int i = 0;i <9;i++) {
+        for(int i = 0;i <11;i++) {
             TimeLineModel model = new TimeLineModel();
             model.setEventname(ename[i]);
             model.setTime(time[i]);

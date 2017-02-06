@@ -66,8 +66,7 @@
                 android:id="@+id/loctext"
                 android:lineSpacingExtra="5dp"
                 android:lineSpacingMultiplier="1.2"
-                android:text="The workshop will be organized at the Vigyan Bhawan at New Delhi, which is a premier convention centre in India. It has been the venue for several Heads of State summits such as CHOGM, NAM, SAARC and G7 summits."
-                />
+                android:text="The workshop will be organized at the Vigyan Bhawan at New Delhi,  which is a premier convention centre in India. It has been the venue for several Heads of State summits such as CHOGM, NAM, SAARC and G7 summits.The Inaugural and Valedictory Sessions will be held in Hall 6 of the Vigyan Bhawan.All the technical lectures are scheduled in Halls 2 and 3." />
 
         </LinearLayout>
 
