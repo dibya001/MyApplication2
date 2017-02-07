@@ -208,7 +208,8 @@
                 android:layout_height="wrap_content"
                 app:cardElevation="3dp"
                 app:cardCornerRadius="3dp"
-                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="@dimen/card_view_margin_horizontal"
+                android:layout_marginRight="@dimen/card_view_margin_horizontal"
                 >
                 <TextView
                     android:layout_width="match_parent"
@@ -227,6 +228,7 @@
                 app:cardCornerRadius="3dp"
                 android:layout_marginLeft="@dimen/card_view_margin_horizontal"
                 android:layout_marginRight="@dimen/card_view_margin_horizontal"
+
                 >
                 <TextView
                     android:layout_width="match_parent"
@@ -423,7 +425,6 @@
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
                     android:textColor="#000"
-                    android:textStyle="italic"
                     android:layout_marginLeft="@dimen/card_view_margin_horizontal"
                     android:layout_marginRight="@dimen/card_view_margin_horizontal"
                     android:text="Shri Jaywardhan Kumar\nCSIR-CIMFR"
