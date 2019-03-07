@@ -1,2 +1,3 @@
-# MyApplication2
-android project for ucg 2017
+# Android Application for UCG 2017 event
+
+This is an android application which was built for the UCG 2017 event.
